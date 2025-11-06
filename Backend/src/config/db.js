@@ -13,6 +13,7 @@ export const connectDB = async () => {
     user: process.env.DB_USER,
     password: process.env.DB_PASS,
     database: process.env.DB_NAME,
+    port: process.env.DB_PORT,
     waitForConnections: true,
     connectionLimit: Number(process.env.DB_CONN_LIMIT) || 10,
     queueLimit: 0,

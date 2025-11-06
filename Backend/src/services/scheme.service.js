@@ -1,6 +1,5 @@
 // src/services/scheme.service.js
 import * as SchemeModel from "../models/scheme.model.js";
-import Redis from "../config/redis.js"; // optional, only if configured
 
 export const getAllSchemes = async ({
   disabilityId,
